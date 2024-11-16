@@ -3,7 +3,7 @@ import { TonConnectButton, TonConnectUIProvider } from '@tonconnect/ui-react'
 
 function App() {
   return (
-    <TonConnectUIProvider manifestUrl="https://github.com/Pengaton/toncars/blob/main/manifest.json">
+    <TonConnectUIProvider manifestUrl="https://raw.githubusercontent.com/Pengaton/toncars/refs/heads/main/public/manifest.json">
       <TonConnectButton />
     </TonConnectUIProvider>
   )
